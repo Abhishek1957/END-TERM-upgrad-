@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Corona App</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <h1>Covid-19 Tracker</h1>
+        <div>
+        <form>
+            <label>Enter Country:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="cname" placeholder="Enter country....">
+            <br/><br/>
+            <label>Enter start date:</label>&nbsp;
+            <input type="date" id="sdate" placeholder="Start date..">
+            <br/><br/>
+            
+            <label>Enter end date:</label>&nbsp;&nbsp;&nbsp;
+            <input type="date" id="edate" placeholder="End date.."> 
+            <br/><br/>
+
+            <button class="btn btn-success" onClick="showData()">Submit</button>
+        </form>
+
+        <div id="res">
+            <h4>Confirmed Cases:<span id="confirmed"></span> </h4>
+            <h4>Active Cases: <span id="active"></span></h4>
+            <h4>Death Cases: <span id="deaths"></span> </h4>
+        </div>
+    </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

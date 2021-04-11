@@ -1,0 +1,38 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(../image/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+div
+{
+    width:50%;
+    background-color: lightgoldenrodyellow;
+    margin: 21px;
+    padding: 5%;
+    margin: auto;
+}
+label
+{
+    font-size: 21px;
+    font-weight: bold;
+}
+#res
+{
+    background-color: white;
+    display: none;
+    width: 100%;
+}
